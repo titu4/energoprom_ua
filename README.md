@@ -67,3 +67,16 @@ Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework
 ## Copyright and License
 
 Copyright 2013-2023 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-grayscale/blob/master/LICENSE) license.
+
+######
+build index.html from pug
+npm run build
+######
+run live preview
+npm run start
+######
+build image
+docker build -t energoprom.kh.ua .
+######
+run container
+docker run -dit --name energoprom.kh.ua  -p 8080:80 energoprom.kh.ua

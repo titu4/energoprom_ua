@@ -5,10 +5,13 @@ html(lang='en')
 
         meta(charset='utf-8')
         meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
-        meta(name='description', content='')
-        meta(name='author', content='')
+        meta(name='description', content='Ливарна компанія Енергопром надає послуги лиття чорних, кольорових металів. Ливарне виробництво знаходиться в місті Харків, але готове до виконання замовлень по всій Україні.')
+        meta(name='description', content='Литейная компания энергопром предоставляет услуги литья черных, цветных металлов. Литейное производство находится в городе Харьков но готова к выполнению заказов по все Украине.')
+        meta(name='keywords', content='Лиття, ливарне виробництво, ливарка, чорний метал, кольоровий метал, чавун, сталь, алюміній, бронза, холоднотвердіючі суміші, лиття в земню, точне лиття, за виплавлюваними моделями, кокіль, прокат, ЧПУ, ливарні форми')
+        meta(name='keywords', content='Литье, литейное производство, литейка, черный металл, цветной металл, чугун, сталь, алюминий, бронза, холоднотвердеющие смеси, литье в земню, точное литье, по выпловляемым моделям, в кокиль, прокат, ЧПУ, литейные формы')
+        meta(name='author', content='Dmytro Tytenko')
 
-        title Grayscale - Start Bootstrap Theme
+        title Лиття чорних та кольорових металів | Енергопром
 
         link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
 
@@ -27,38 +30,52 @@ html(lang='en')
         // Navigation
         nav#mainNav.navbar.navbar-expand-lg.navbar-light.fixed-top
             .container.px-4.px-lg-5
-                a.navbar-brand(href='#page-top') Start Bootstrap
+                a.navbar-brand(href='#page-top') Енергопром
                 button.navbar-toggler.navbar-toggler-right(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
                     | Menu
                     i.fas.fa-bars
                 #navbarResponsive.collapse.navbar-collapse
                     ul.navbar-nav.ms-auto
                         li.nav-item
-                            a.nav-link(href='#about') About
+                            a.nav-link(href='#about') Про нас
                         li.nav-item
-                            a.nav-link(href='#projects') Projects
+                            a.nav-link(href='#projects') Приклади виконаних робіт
                         li.nav-item
-                            a.nav-link(href='#signup') Contact
+                            a.nav-link(href='#signup') Контакти
 
         // Masthead
         header.masthead
             .container.px-4.px-lg-5.d-flex.h-100.align-items-center.justify-content-center
                 .d-flex.justify-content-center
                     .text-center
-                        h1.mx-auto.my-0.text-uppercase Grayscale
-                        h2.text-white-50.mx-auto.mt-2.mb-5 A free, responsive, one page Bootstrap theme created by Start Bootstrap.
-                        a.btn.btn-primary(href='#about') Get Started
+                        h1.mx-auto.my-0.text-uppercase energoprom
+                        h2.text-white-50.mx-auto.mt-2.mb-5
+                          | Ливарне виробництво
+                          br
+                          | est.1991.
+                        a.btn.btn-primary(href='#about') Докладніше
 
         // About
         section#about.about-section.text-center
             .container.px-4.px-lg-5
                 .row.gx-4.gx-lg-5.justify-content-center
                     .col-lg-8
-                        h2.text-white.mb-4 Built with Bootstrap 5
+                        h2.text-white.mb-4 Про нас
                         p.text-white-50
-                            | Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on 
-                            a(href='https://startbootstrap.com/theme/grayscale/') the preview page.
-                            | The theme is open source, and you can use it for any purpose, personal or commercial.
+                          | Харківська мануфактура з виготовлення фасонних деталей та заготовок. Більше 20 років займаємося литтям кольорових та чорних металів, а також виробництвом індивідуальних замовлень будь-якого виду та рівня складності.<br>
+                          br
+                          | Наші пріоритети – пріоритети наших замовників.
+                        h2.text-white.mb-4 ПОСЛУГИ
+                        p.text-white-50.text-start
+                          | Проектування та технічне оснащення ливарних форм
+                          br
+                          | Лиття в кокіль
+                          br
+                          | <b>ЛВМ</b> (лиття за моделями, що виплавляються)
+                          br
+                          | <b>ХТС</b> (лиття в суміші, що холодно твердіють)
+                          br
+                          | <b>ЛПТ</b> (лиття під тиском)
                 img.img-fluid(src='assets/img/ipad.png', alt='...')
 
         // Projects
@@ -70,9 +87,15 @@ html(lang='en')
                         img.img-fluid.mb-3.mb-lg-0(src='assets/img/bg-masthead.jpg', alt='...')
                     .col-xl-4.col-lg-5
                         .featured-text.text-center.text-lg-left
-                            h4 Shoreline
-                            p.text-black-50.mb-0
-                                | Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!
+                            h4.text-start Чому саме ми
+                            p.text-black-50.mb-0.text-start
+                              | індивідуальний підхід
+                              br
+                              | своєчасне виконання замовлень
+                              br
+                              | дотримання термінів доставки
+                              br
+                              | гарантія якості продукції
                 // Project One Row
                 .row.gx-0.mb-5.mb-lg-0.justify-content-center
                     .col-lg-6
@@ -81,9 +104,9 @@ html(lang='en')
                         .bg-black.text-center.h-100.project
                             .d-flex.h-100
                                 .project-text.w-100.my-auto.text-center.text-lg-left
-                                    h4.text-white Misty
-                                    p.mb-0.text-white-50
-                                        | An example of where you can put an image of a project, or anything else, along with a description.
+                                    h4.text-white.text-start CNC
+                                    p.mb-0.text-white-50.text-start
+                                      | Під час підготовки виробничого процесу ми використовуємо сучасні технології CAD моделювання, обробки на верстатах з ЧПК.
                 // Project Two Row
                 .row.gx-0.justify-content-center
                     .col-lg-6
@@ -92,9 +115,9 @@ html(lang='en')
                         .bg-black.text-center.h-100.project
                             .d-flex.h-100
                                 .project-text.w-100.my-auto.text-center.text-lg-right
-                                    h4.text-white Mountains
-                                    p.mb-0.text-white-50
-                                        | Another example of a project with its respective description. These sections work well responsively as well!
+                                    h4.text-white.text-start CAD
+                                    p.mb-0.text-white-50.text-start
+                                        | Перед тим як розпочати виготовлення ливарних форм - процес заливання металу моделюється на комп'ютері.
 
         // Signup
         section#signup.signup-section
@@ -102,7 +125,7 @@ html(lang='en')
                 .row.gx-4.gx-lg-5
                     .col-md-10.col-lg-8.mx-auto.text-center
                         i.far.fa-paper-plane.fa-2x.mb-2.text-white
-                        h2.text-white.mb-5 Subscribe to receive updates!
+                        h2.text-white.mb-5 Зателефонуйте або напишіть нам
 
                         // * * * * * * * * * * * * * * *
                         // * * SB Forms Contact Form * *
@@ -112,7 +135,7 @@ html(lang='en')
                         // To make this form functional, sign up at
                         // https://startbootstrap.com/solution/contact-forms
                         // to get an API token!
-                        
+
                         form#contactForm.form-signup(data-sb-form-api-token='API_TOKEN')
 
                             // Email address input
@@ -160,9 +183,10 @@ html(lang='en')
                         .card.py-4.h-100
                             .card-body.text-center
                                 i.fas.fa-map-marked-alt.text-primary.mb-2
-                                h4.text-uppercase.m-0 Address
+                                h4.text-uppercase.m-0 Адреса
                                 hr.my-4.mx-auto
-                                .small.text-black-50 4923 Market Street, Orlando FL
+                                .small.text-black-50
+                                  a(href='https://goo.gl/maps/g5JxhwqSsrQzCYDA8' target='_blank') Бесарабська вулиця, Харків, Харківська область, 61000
                     .col-md-4.mb-3.mb-md-0
                         .card.py-4.h-100
                             .card-body.text-center
@@ -170,26 +194,19 @@ html(lang='en')
                                 h4.text-uppercase.m-0 Email
                                 hr.my-4.mx-auto
                                 .small.text-black-50
-                                    a(href='#!') hello@yourdomain.com
+                                    a(href='mailto:info.energoprom@gmail.com') info.energoprom@gmail.com
                     .col-md-4.mb-3.mb-md-0
                         .card.py-4.h-100
                             .card-body.text-center
                                 i.fas.fa-mobile-alt.text-primary.mb-2
-                                h4.text-uppercase.m-0 Phone
+                                h4.text-uppercase.m-0 Телефон
                                 hr.my-4.mx-auto
-                                .small.text-black-50 +1 (555) 902-8832
-                .social.d-flex.justify-content-center
-                    a.mx-2(href='#!')
-                        i.fab.fa-twitter
-                    a.mx-2(href='#!')
-                        i.fab.fa-facebook-f
-                    a.mx-2(href='#!')
-                        i.fab.fa-github
+                                .small.text-black-50 +38 (050) 323-74-17
 
         // Footer
         footer.footer.bg-black.small.text-center.text-white-50
             .container.px-4.px-lg-5
-                | Copyright &copy; Your Website 2023
+                | Copyright &copy; Energoprom <script>document.write(new Date().getFullYear())</script>
 
         // Bootstrap core JS
         script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')
